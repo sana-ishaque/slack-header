@@ -1,5 +1,3 @@
-/* part one nav */
-
 nav {
     display: flex;
 }
@@ -123,11 +121,12 @@ nav {
     color: #37938a;
 }
 
-#jump-to-input input{
-    border:none;
+#jump-to-input input {
+    border: none;
     background-color: transparent;
 }
-#jump-to-input{
+
+#jump-to-input {
     background-color: #250027;
     padding: 10px;
     border: none;
@@ -136,17 +135,18 @@ nav {
     display: flex;
     align-items: center;
 }
+
 ::placeholder {
-    color:#c5b7c6;
+    color: #c5b7c6;
     opacity: 1;
     font-weight: bold;
 }
-#jump-to-input i{
-color: #c5b7c6;
-font-size: 12px;
-margin-right: 5px;
-}
 
+#jump-to-input i {
+    color: #c5b7c6;
+    font-size: 12px;
+    margin-right: 5px;
+}
 
 #reads-threads {
     margin: 20px 0px;
@@ -189,16 +189,21 @@ margin-right: 5px;
     margin: 20px 0px;
     /* width: 200px; */
 }
-#nav-p2-space{
+
+#nav-p2-space {
     width: 80%;
     margin: auto;
 }
+
 #chn-heading {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
+#ctg-name {
+    text-decoration: none;
+    color: #b29fb3;
+}
 #chn-heading p {
     font-size: 16px;
 }
@@ -229,6 +234,7 @@ margin-right: 5px;
 
 #ctg-name p {
     margin: 0;
+    font-size: 16px;
 }
 
 .showcase {
@@ -241,9 +247,11 @@ margin-right: 5px;
 #dir-msg {
     line-height: 1.8;
 }
-#dir-msg div>p{
-    font-size: 14px;
+
+#dir-msg div>p {
+    font-size: 16px;
 }
+
 #dir-msg div {
     display: flex;
     align-items: center;
@@ -252,9 +260,11 @@ margin-right: 5px;
 #dir-msg .dm {
     justify-content: space-between;
 }
-#dir-msg .dm>p{
+
+#dir-msg .dm>p {
     font-size: 16px;
 }
+
 #dir-msg>div i {
     margin-right: 5px;
     font-size: 11px;
@@ -264,6 +274,14 @@ margin-right: 5px;
 
 #dir-msg .lock i {
     color: #2bac76;
+}
+
+#dir-msg .lock p {
+    color: #bcadbe;
+}
+
+#dir-msg p {
+    color: #957a96;
 }
 
 /* header */
